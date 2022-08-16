@@ -17,10 +17,10 @@
             <p style="color:red">{{error}}</p>
         </b>
         {% endfor %}
-    </form>
-    {% endfor %}
-    <input style="margin-top:10px ;" class="button" type="submit" value="Register">
-    <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+
+        {% endfor %}
+        <input style="margin-top:10px ;" class="button" type="submit" value="Register">
+        <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
 </div>
 
 {% endblock content %}
