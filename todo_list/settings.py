@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pv#w713!i)iuo@-5=q#)!8s=3p9g#)!^-es%5)-_3&u@^mhj#9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'todobyshishir.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'todobyshishir.herokuapp.com', 'todolistbyshishir.netlify.app']
 
 
 # Application definition
